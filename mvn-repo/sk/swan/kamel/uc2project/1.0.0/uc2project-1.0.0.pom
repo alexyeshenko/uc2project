@@ -37,7 +37,7 @@
     </repository>
     <repository>
       <id>aygithub</id>
-      <url>https://maven.pkg.github.com/alexyeshenko/uc2project/main/mvn-repo</url>
+      <url>https://github.com/alexyeshenko/uc2project/raw/main/mvn-repo</url>
       <snapshots>
         <enabled>true</enabled>
         <updatePolicy>always</updatePolicy>
@@ -49,7 +49,7 @@
     <repository>
       <id>aygithub</id>
       <name>GitHub Alex Yeshenko Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/alexyeshenko/uc2project/main/mvn-repo</url>
+      <url>https://github.com/alexyeshenko/uc2project/raw/main/mvn-repo</url>
     </repository>
   </distributionManagement>
 
