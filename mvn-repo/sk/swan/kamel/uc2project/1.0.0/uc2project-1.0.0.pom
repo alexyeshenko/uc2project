@@ -38,6 +38,10 @@
     <repository>
       <id>aygithub</id>
       <url>https://github.com/alexyeshenko/uc2project/raw/main/mvn-repo</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+      </releases>
       <snapshots>
         <enabled>true</enabled>
         <updatePolicy>always</updatePolicy>
