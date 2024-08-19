@@ -28,6 +28,14 @@
   
   <repositories>
     <repository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>Maven Repository Switchboard</name>
+      <url>https://repo1.maven.org/maven2</url>
+    </repository>
+    <repository>
       <id>aygithub</id>
       <url>https://maven.pkg.github.com/alexyeshenko/uc2project/main/mvn-repo</url>
       <snapshots>
