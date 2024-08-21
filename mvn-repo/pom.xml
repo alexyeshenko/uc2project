@@ -23,7 +23,7 @@
     <camel-bom.version>3.20.6</camel-bom.version>
     <kamel.version>1.8.1</kamel.version>
     <junit-jupiter.version>5.5.2</junit-jupiter.version>
-    <github.global.server>aygithub</github.global.server>
+    <!--github.global.server>aygithub</github.global.server-->
   </properties>
   
   <repositories>
@@ -40,7 +40,7 @@
       <url>https://github.com/alexyeshenko/uc2project/raw/main/mvn-repo</url>
       <releases>
         <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
+        <updatePolicy>always</updatePolicy>
       </releases>
       <snapshots>
         <enabled>true</enabled>
