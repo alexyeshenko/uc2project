@@ -17,7 +17,6 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <camel-quarkus-bom.version>3.8.3</camel-quarkus-bom.version>
-    <jib-maven-plugin.version>3.2.0</jib-maven-plugin.version>
     <quarkus-platform.version>3.8.3</quarkus-platform.version>
     <quarkus-plugin.version>3.8.3</quarkus-plugin.version>
     <camel-bom.version>3.20.6</camel-bom.version>
@@ -127,10 +126,6 @@
       <artifactId>camel-quarkus-saga</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-container-image-jib</artifactId>
-    </dependency>
-    <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.34</version>
@@ -192,17 +187,6 @@
           <excludes>
             **/*Route*
           </excludes>
-        </configuration>
-      </plugin>
-
-      <plugin>
-        <groupId>com.google.cloud.tools</groupId>
-        <artifactId>jib-maven-plugin</artifactId>
-        <version>${jib-maven-plugin.version}</version>
-        <configuration>
-          <to>
-            <image>alexander-yeshenko/uc2route:1.0.0</image>
-          </to>
         </configuration>
       </plugin>
 
